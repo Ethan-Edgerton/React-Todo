@@ -1,0 +1,82 @@
+.header {
+  text-align: center;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.Todo-List,
+button {
+  text-align: center;
+}
+
+.Todo-List {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Todo-List {
+  width: 50%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: #003cff;
+  border: 1px solid #1f036d;
+  color: white;
+  font-size: 20px;
+  padding: 6px 14px;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.item {
+  border: 2px inset rgb(143, 133, 133);
+  text-align: start;
+  width: 49%;
+  margin: 3px;
+}
+
+.item.Completed {
+  text-decoration: line-through;
+  color: red;
+  background-color: rgb(241, 241, 241);
+  text-align: end;
+  width: 49%;
+  margin: 3px;
+}
+
+.clear-btn {
+  background-color: #003cff;
+  border: 2px outset #1f036d;
+  color: white;
+  font-size: 20px;
+  padding: 0.8rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
